@@ -3,7 +3,7 @@ import Link from 'next/link'
 import { FaStar, FaCodeBranch, FaEye } from 'react-icons/fa'
 
 const username = 'Pandyo'
-const token = process.env.GITHUB_TOKEN
+const token = process.env.GITHUB_TOKEN;
 
 export default async function ReposPage() {
 
