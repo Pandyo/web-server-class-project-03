@@ -42,6 +42,12 @@ export default function DemoPage() {
           >
             #Team
           </button>
+          <button
+            onClick={() => scrollToId('Team_Project')}
+            className="text-sm px-3 py-1 rounded-full bg-slate-100 dark:bg-slate-800 hover:bg-slate-200 dark:hover:bg-slate-700"
+          >
+            #Team_Project
+          </button>
         </div>
         <div className="items-start py-10">
             <h2 id="cleck" className="text-4xl font-bold mb-4">Cleck App</h2>
@@ -80,7 +86,7 @@ export default function DemoPage() {
                         <a href="https://github.com/kkaturi14" target="_blank" className="hover:opacity-80">
                         <img src="github.png" className="w-5 h-5" />
                         </a>
-                        <a href="" target="_blank" className="hover:opacity-80">
+                        <a href="https://web-server-last-portfolio.vercel.app/" target="_blank" className="hover:opacity-80">
                         <img src="cleck.png" className="w-5 h-5" />
                         </a>
                     </div>
@@ -116,7 +122,7 @@ export default function DemoPage() {
                         <a href="https://github.com/J4EH00N" target="_blank" className="hover:opacity-80">
                         <img src="github.png" className="w-5 h-5" />
                         </a>
-                        <a href="https://midterm-portfolio-two.vercel.app/" target="_blank" className="hover:opacity-80">
+                        <a href="https://portfolio-v1-khaki-psi.vercel.app/" target="_blank" className="hover:opacity-80">
                         <img src="cleck.png" className="w-5 h-5" />
                         </a>
                     </div>
@@ -134,7 +140,7 @@ export default function DemoPage() {
                         <a href="https://github.com/oesp91" target="_blank" className="hover:opacity-80">
                         <img src="github.png" className="w-5 h-5" />
                         </a>
-                        <a href="" target="_blank" className="hover:opacity-80">
+                        <a href="https://wsvbp2.vercel.app/" target="_blank" className="hover:opacity-80">
                         <img src="cleck.png" className="w-5 h-5" />
                         </a>
                     </div>
@@ -152,11 +158,31 @@ export default function DemoPage() {
                         <a href="https://github.com/Interludeal" target="_blank" className="hover:opacity-80">
                         <img src="github.png" className="w-5 h-5" />
                         </a>
-                        <a href="https://20252-middle.vercel.app/" target="_blank" className="hover:opacity-80">
+                        <a href="https://jbu-2025-2-personal.vercel.app/" target="_blank" className="hover:opacity-80">
                         <img src="cleck.png" className="w-5 h-5" />
                         </a>
                     </div>
                 </div>  
+            </div>
+        </div>
+        <div className="items-start py-10">
+            <img src="on.png" className="w-40 pt-10" id="Team_Project"></img>
+            <p className='pt-3'>25-2 웹서버보안프로그래밍 팀 프로젝트로 진행한 웹사이트 입니다.</p>
+            <p><a href='https://github.com/neighborhood-on/neighborhood_on' className='underline text-blue-600 hover:text-blue-800 dark:text-blue-400 dark:hover:text-blue-300 transition-colors'>링크</a>를 통해 Github Repository에 접속하실 수 있습니다.</p>
+            <p>사진을 클릭하면 Demo App으로 이동됩니다.</p>
+            <div className="grid sm:grid-cols-2 gap-4 pt-3">
+                <a href='https://neighborhood-on-cu5h.vercel.app/'>
+                    <img src="team.png"></img>
+                </a>
+                <a href='https://neighborhood-on-cu5h.vercel.app/'>
+                    <img src="team2.png"></img>
+                </a>
+                <a href='https://neighborhood-on-cu5h.vercel.app/'>
+                    <img src="team3.png"></img>
+                </a>
+                <a href='https://neighborhood-on-cu5h.vercel.app/'>
+                    <img src="team4.png"></img>
+                </a>
             </div>
         </div>
         </section>

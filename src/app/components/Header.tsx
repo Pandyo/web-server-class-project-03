@@ -13,9 +13,11 @@ export default function Header() {
         <div className="flex items-center gap-4">
           <nav className="hidden md:flex gap-6 ml-6">
             <Link href="/about" className="hidden md:inline-block bg-gray-800 text-white px-4 py-2 rounded-2xl font-semibold shadow-lg transform hover:scale-105 transition">About</Link>
-            <Link href="/projects" className="hidden md:inline-block bg-gray-800 text-white px-4 py-2 rounded-2xl font-semibold shadow-lg transform hover:scale-105 transition">Projects</Link>
+            <Link href="/graph" className="hidden md:inline-block bg-gray-800 text-white px-4 py-2 rounded-2xl font-semibold shadow-lg transform hover:scale-105 transition">New Projects</Link>
+            <Link href="/projects" className="hidden md:inline-block bg-gray-800 text-white px-4 py-2 rounded-2xl font-semibold shadow-lg transform hover:scale-105 transition">Old Projects</Link>
             <Link href="/demo" className="hidden md:inline-block bg-gray-800 text-white px-4 py-2 rounded-2xl font-semibold shadow-lg transform hover:scale-105 transition">Demo</Link>
             <Link href="/repos" className="hidden md:inline-block bg-gray-800 text-white px-4 py-2 rounded-2xl font-semibold shadow-lg transform hover:scale-105 transition">GitHub</Link>
+            <Link href="/chat" className="hidden md:inline-block bg-gray-800 text-white px-4 py-2 rounded-2xl font-semibold shadow-lg transform hover:scale-105 transition">Chat HPT</Link>
           </nav>
         </div>
       </div>
